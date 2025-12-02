@@ -1,2 +1,7 @@
-pyTelegramBotAPI
+pyrogram==2.0.106
+tgcrypto
+pytube
 requests
+aiohttp
+instaloader
+python-dotenv
