@@ -223,7 +223,7 @@ def main():
         server.serve_forever()
 
     threading.Thread(target=run_health_server, daemon=True).start()
-
+    
     builder = ApplicationBuilder().token(BOT_TOKEN)
 
     if USE_LOCAL_SERVER:
