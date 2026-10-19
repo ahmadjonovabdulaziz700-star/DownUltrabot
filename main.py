@@ -182,7 +182,8 @@ async def do_download(query, url, choice):
             if file_size_mb > MAX_FILE_SIZE_MB:
                 await query.message.reply_text(
                     f"❌ Fayl juda katta ({file_size_mb:.1f}MB). "
-                    f"Telegram bot orqali {MAX_FILE_SIZE_MB}MB dan katta "
+                    f"Telegram bot orqapk udapte
+                    li {MAX_FILE_SIZE_MB}MB dan katta "
                     "fayl yuborib bo'lmaydi."
                 )
                 return
